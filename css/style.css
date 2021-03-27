@@ -1,15 +1,26 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url(https://www.muralswallpaper.com/app/uploads/white-warehouse-brick-plain.jpg);
 }
 
-.Wrapperheader {
+.bg-image {
+    background-image: url(images/pizzeria-interior.jpg);
+    filter: blur(2px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.HeaderWrapper {
+    
+}
+
+.NavbarWrapper {
     background-color: rgb(135,68,42);
     padding: 0 1rem;
     font-size: 1.25rem;
     min-height: 2.75rem;
     border-radius: 5px;
-
+    
     display: flex;
     align-items: center;
     justify-content: flex-end   ;
@@ -19,7 +30,15 @@ body {
     text-decoration: none;
     color: white;
     
-
+    
     margin-right: 2rem;
     margin-left: 2rem;
+}
+
+.LogoWrapper {
+    padding-top: 5%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
